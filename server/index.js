@@ -2,15 +2,7 @@
 
 const express = require('express');
 
-const port = 3000;
-
 const app = express();
-
-// --> Instrucciones GET
-
-/* He colocado las URL encima de cada código para probar más rápido
-   Podéis cambiarlo por vuestro nombre para verlo por la web
-*/
 
 // http://localhost:3000/JuanLu/Felipe
 app.get('/:nombre/:apellido', (req, res) => {
@@ -44,5 +36,4 @@ app.delete('/', (req, res) => {
   res.send('Con este método borramos recursos');
 });
 
-app.listen(port); // iniciamos nuestro servidor para escuchar en nuestro puerto
-console.log(`La nueva API está escuchando en el puerto ${port}!`);
+module.exports = app;
