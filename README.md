@@ -8,7 +8,7 @@ This is an example of how to begin a nodejs API with web server, nodemon, ESLint
 
 ## Built With 🛠️
 
-I begun writing this code with Visual Studio Code in nodejs.
+This code is written in nodejs with Visual Studio Code.
 Of course you can use your prefer framework or IDE.
 
 - VSC- Visual Studio Code https://code.visualstudio.com/download
@@ -17,24 +17,28 @@ Of course you can use your prefer framework or IDE.
 
 ## Getting Started 🚀
 
-This project contains ??? files:
+This project contains three main files:
 
-1. **index.js** – xxxxxxxxxx
+1. **index.js** – main file
 
-   - String s contains the name of customer and the money spent in each case.
-   - Each customer is inserted in the Heap Structure floating the maximum to the root of tree structure.
-   - At the end we get the root of Heap with the Customer Awarded.
+   - This is our main Web Server
+   - We are importing http, app and config and creating the server listener with
+   - the app
 
-2. **server/index.js** – Class MyCustomer
+2. **server/index.js** – app
 
-   - Class with the name of customer and the money spent in our business
+   - This is the server app. Is simulating the API (get, post, put and delete)
+   - module.exports = app
 
-3. **server/config/index.js** – Maximums Heap
-   - Tree structure Heap
-4. **.env** – Maximums Heap
-   - Tree structure Heap
-5. **.gitignore** – Maximums Heap
-   - Tree structure Heap
+3. **server/config/index.js** – config file
+
+   - This is the file for all the config parameters
+   - Uses the dotenv and cross-env libraries for the control of environtments
+   - module.exports = config
+
+4. **.gitignore** – git ignore files
+
+   - refs to the files ignored by git
 
 ### Prerequisites 📋
 
@@ -70,7 +74,7 @@ Contributions are what make the open source community such an amazing place to b
 
 - GitHub Link: [juanlufr/api-basica](https://github.com/juanlufr/api-basica)
 
-- Spanish explanation about it in Blog: https://juanlucodingbinding.wordpress.com/2018/09/12/testing-spring-framework-ejercicio-cliente-por-consumo-java/
+- Spanish explanation about it in Blog: https://juanlucodingbinding.wordpress.com
 
 - E-mail: juanluis.feliperubio@gmail.com
 
