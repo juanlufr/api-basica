@@ -2,7 +2,7 @@
 
 # API básica
 
-This is an example of how to begin a nodejs API with web server, nodemon, ESLint, Visual Studio Code configuration, express, config file, libraries cross-env and dotenv
+Building a basic nodejs API with web server, nodemon, ESLint, Visual Studio Code configuration, express, config file, libraries cross-env and dotenv
 
 ![Node](https://github.com/juanlufr/api-basica/blob/master/node-js.png)
 
@@ -22,8 +22,7 @@ This project contains three main files:
 1. **index.js** – main file
 
    - This is our main Web Server
-   - We are importing http, app and config and creating the server listener with
-   - the app
+   - We are importing http, app and config and creating the server listener with the app
 
 2. **server/index.js** – app
 
@@ -64,7 +63,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License 📄
 
-- This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/juanlufr/Java-CustomerAwarded/blob/master/LICENSE.md) file for details
+- This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/juanlufr/api-basica/blob/master/LICENSE.md) file for details
 
 <!-- CONTACT -->
 
