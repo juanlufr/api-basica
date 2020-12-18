@@ -1,6 +1,3 @@
-# api-basica
-Api básica con servidor web, nodemon, ESLint, configuración de Visual Studio Code, express, archivo config, libreria cross-env y dotenv
-
 <!-- API básica -->
 
 # API básica
@@ -42,7 +39,7 @@ This project contains ??? files:
 
 
 ### Installation 🔧
-* Deploy the three files into a folder.
+* Deploy all the files into a folder.
 
 
 <!-- CONTRIBUTING -->
