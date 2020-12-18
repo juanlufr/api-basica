@@ -7,7 +7,7 @@ Api básica con servidor web, nodemon, ESLint, configuración de Visual Studio C
 
 This is an example of how to begin a nodejs API with web server, nodemon, ESLint, Visual Studio Code configuration, express, config file, libraries cross-env and dotenv
 
-![Image of Api básica](https://github.com/juanlufr/xxx.png)
+![Node](https://github.com/juanlufr/api-basica/blob/master/node-js.png)
 
 ## Built With 🛠️
 I begun writing this code with Visual Studio Code in nodejs.
